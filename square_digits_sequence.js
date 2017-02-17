@@ -45,9 +45,35 @@ function squareDigitsSequence(a0) {
      }, 0);
      count++;
    }
-
+   console.log(count);
    return count;
 }
-squareDigitsSequence(16);
-squareDigitsSequence(103);
-squareDigitsSequence(1);
+
+
+
+/*
+describe("squareDigitsSequence", function() {
+
+  it('A sequence of numbers 16, count - 9', function() {
+    assert.equal(squareDigitsSequence(16), 9)
+  })
+
+  it('A sequence of numbers 103, count - 4', function() {
+    assert.equal(squareDigitsSequence(103), 4)
+  })
+
+  it('A sequence of numbers 1, count - 2', function() {
+    assert.equal(squareDigitsSequence(1), 2)
+  })
+
+  it('A sequence of numbers 430, count - 13', function() {
+    assert.equal(squareDigitsSequence(430), 13)
+  })
+
+  it('A sequence of numbers 394, count - 11', function() {
+    assert.equal(squareDigitsSequence(394), 11)
+  })
+
+});
+
+*/
